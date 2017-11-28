@@ -47,6 +47,7 @@ struct Case;
 struct ForLoop;
 struct Block;
 
+struct Case;
 struct TypedName;
 
 using Statement = boost::variant<Instruction, Literal, Label, StackAssignment, Identifier, Assignment, FunctionCall, FunctionalInstruction, VariableDeclaration, FunctionDefinition, If, Switch, ForLoop, Block>;
